@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open App</title>
+    <meta http-equiv="refresh" content="0; url=http://localhost:3000" />
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #030014;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            background: linear-gradient(to right, #d100c8, #00d2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        a {
+            color: #d100c8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Opening Ayad's Portfolio...</h1>
+        <p>If you are not redirected automatically, <a href="http://localhost:3000">click here</a>.</p>
+        <p style="font-size: 0.8em; color: #888; margin-top: 2rem;">Note: Ensure the development server is running <code>npm run dev</code></p>
+    </div>
+    <script>
+        window.location.href = "http://localhost:3000";
+    </script>
+</body>
+</html>
